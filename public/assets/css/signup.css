@@ -1,0 +1,218 @@
+body
+{
+    background-image: url("signinbg.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+html
+{
+    height: 100%;
+}
+.logo-center
+{
+    margin: 70px 0 0 0;
+}
+.center-div
+{
+    position: absolute;
+    width: 500px;
+    /* height: 200px; */
+    z-index: 15;
+    top: 50%;
+    left: 50%;
+    margin: -190px 0 0 -250px;
+    background: #ffffff;
+    padding: 25px;
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 204, .3);
+    box-shadow: 0 0 10px rgba(0, 0, 204, .3);
+}
+.signup
+{
+    color: green;
+}
+.signup-hr
+{
+    margin: 5px 0 5px 0;
+    border:1px solid green;
+    width: 60px;
+    position: absolute;
+    left: 265px;
+}
+
+
+.hr-5px
+{
+    margin: 0px 0 5px 0;
+    border: none;
+}
+.hr-22px
+{
+    margin: 11px 0 11px 0;
+    border: none;
+}
+.mysignupInput{
+    border: 1px solid rgba(0, 153, 51,.5);
+    padding: 7px;
+    border-radius: 2px;
+    transition: 0.3s;
+    margin: 3px 0 10px 0;
+    width: 100%;
+  }
+  .mysignupInput:hover{
+    border: 1px solid rgba(0, 153, 51,1);
+  }
+.work-button
+{
+    margin: 0 20px 0 0;
+}
+.active
+{
+    background: green;
+}
+.work-button
+{
+    width: 100%;
+    color: white;
+    border: none;
+    padding: 10px 40px;
+}
+.hire-button
+{
+    width: 100%;
+    border: 1px solid rgba(0, 153, 51,.5);
+    color: black;
+    padding: 10px 40px;
+    background: none;
+
+}
+.hire-button_client
+{
+    width: 100%;
+    color: white;
+    border: none;
+    padding: 10px 40px;
+}
+.work-button_client
+{
+    width: 100%;
+    border: 1px solid rgba(0, 153, 51,.5);
+    color: black;
+    padding: 10px 40px;
+    background: none;
+}
+.error-button{
+    background: red;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    font-size: 11px;
+    text-align: justify;
+}
+.create-button
+{
+    width: 100%;
+    background: black;
+    color: white;
+    border: none;
+    padding: 10px 40px;
+    transition: 0.3s;
+    /* margin: 0 120px 0 120px; */
+}
+.create-button:hover
+{
+    background: green;
+    color: #ffffff;
+}
+.gmail-button
+{
+    width: 100%;
+    border: 1px solid black;
+    background: none;
+    padding: 10px 30px;
+    transition: 0.3s;
+}
+.gmail-button:hover{
+    border: none;
+    color: #ffffff;
+    background: #B23121;
+}
+.fb-button
+{
+    width: 100%;
+    background: none;
+    border: 1px solid black;
+    padding: 10px 30px;
+}
+.fb-button:hover{
+    border: none;
+    color: #ffffff;
+    background: #3b5998;
+}
+.hr-or
+{
+    border: none;
+    margin: 4px 0 4px 0;
+}
+.hr-20px
+{
+    border: none;
+    margin: 10px 0 10px 0;
+}
+.error
+{
+    padding: 7px;
+    /* opacity: .4;; */
+    color: red;
+    font-size: 15px;
+    display: none;
+    width: 100%;
+    border: none;
+    /* background: rgba(248, 2, 2, 0.7); */
+}
+@media screen and (max-width: 991px) {
+    .fb-button{
+        margin: 10px 0 0 0;
+    }
+  }
+  @media screen and (max-width:515px) {
+    .center-div
+    {
+        width: 400px;
+        margin: -160px 0 0 -205px;
+    }
+    .signup-hr
+    {
+        margin: 5px 0 5px 0;
+        border:1px solid green;
+        width: 60px;
+        position: absolute;
+        left: 215px;
+    }
+    .logo-center
+    {
+        margin: 59px 0 0 0;
+    }
+    .logo{
+        width: 190px;
+    }
+    
+}
+@media screen and (max-width:440px) {
+    .center-div
+    {
+        width: 300px;
+        margin: -210px 0 0 -145px;
+    }
+    .signup-hr
+    {
+        margin: 5px 0 5px 0;
+        border:1px solid green;
+        width: 60px;
+        position: absolute;
+        left: 165px;
+    }
+    .logo{
+        width: 160px;
+    }
+    
+}

@@ -1,0 +1,10 @@
+DB_CONNECTION=mysql
+DB_HOST=localhost
+DB_PORT=3306
+DB_DATABASE=tagdphot_o
+DB_USERNAME=tagdphot_o
+DB_PASSWORD=Cwe(NB9^Xyt=
+
+
+id- 329889593150-7lck7k5gg9u2tq97d5qem6b7rosn4rmc.apps.googleusercontent.com
+secret- LumYD5dOiDLDKgpvCAyA5ooO

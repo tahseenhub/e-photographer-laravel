@@ -1,0 +1,251 @@
+.header{
+  /* position: fixed; */
+  height: 70px;
+  background: #f2f2f2;
+  box-shadow: 0px 1px rgba(0,0,0,0.2);
+}
+/* .mobile{
+    background: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 3px;
+} */
+.popup-a{
+  position: relative;
+  /* top:50%; */
+  /* right: 0%; */
+  /* transform: translate(-50%,-50%); */
+  /* box-shadow: 0 20px 50px rgba(0,0,0,.2);  */
+  background: rgb(0, 0, 0);
+  color: #fff !important;
+  padding: 10px 20px !important;
+  text-decoration: none;
+  border-radius: 3px;
+  overflow: hidden !important;
+
+}
+.popup-a span:nth-child(1){
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(to right,#ffffff,#ffffff);
+  animation: animate1 linear 2s infinite;
+  overflow: hidden;
+}
+@keyframes animate1{
+  0%{
+      transform: translateX(-100%);
+  }
+  100%{
+      transform: translateX(100%);
+  }
+}
+.popup-a span:nth-child(2){
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 3px;
+  height: 100%;
+  background: linear-gradient(to bottom,#ffffff,#ffffff);
+  animation: animate2 linear 2s infinite;
+}
+@keyframes animate2{
+  0%{
+      transform: translateY(-100%);
+  }
+  100%{
+      transform: translateY(20%);
+  }
+}
+.popup-a span:nth-child(3){
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(to left,#ffffff,#ffffff);
+  animation: animate3 linear 2s infinite;
+}
+@keyframes animate3{
+  0%{
+      transform: translateX(100%);
+  }
+  100%{
+      transform: translateX(-100%);
+  }
+}
+.popup-a span:nth-child(4){
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 3px;
+  height: 100%;
+  background: linear-gradient(to top,#ffffff,#ffffff);
+  animation: animate4 linear 2s infinite;
+}
+@keyframes animate4{
+  0%{
+      transform: translateY(20%);
+  }
+  100%{
+      transform: translateY(-100%);
+  }
+}
+.logo{
+  width: 200px;
+  padding: 20px 30px;
+  cursor: pointer;
+}
+.mysearchbox
+{
+  width: 300px;
+  /* margin-top:3%; */
+  margin-left: 100px;  
+  padding: 8px;
+  border: 1px solid rgba(0,0,0,0.5);
+  border-radius: 10px; 
+  background-image: url("search.png");
+  background-position: 269px 6px; 
+  background-repeat: no-repeat;
+}
+.icon-logo{
+display: none;
+}
+
+.mysearchbox:focus
+{
+  /* border: 1px solid #000;
+  border-radius: 10px; */
+  /* border: none; */
+}
+.menu{
+  float: right;
+  padding: 27px 30px; 
+}
+.menu a{
+  color: #000;
+  text-decoration: none;
+  padding: 0 10px;
+  transition: 0.4s;
+}
+.show-menu-btn,.hide-menu-btn{
+  transition: 0.4s;
+  font-size: 30px;
+  cursor: pointer;
+  display: none;
+}
+.show-menu-btn{
+  float: right;
+}
+.show-menu-btn i{
+  padding: 20px 30px;
+}
+.menu a:hover,
+.show-menu-btn:hover,
+.hide-menu-btn:hover{
+  color: #3498db;
+}
+
+#chk{
+  position: absolute;
+  visibility: hidden;
+  z-index: -1111
+}
+
+@media screen and (max-width:1150px) {
+  .show-menu-btn,.hide-menu-btn{
+    display: block;
+  }
+  .menu{
+    position: fixed;
+    width: 250px;
+    height: auto;;
+    background: rgba(0,0,0,0.7);
+    right: -100%;
+    top: 0;
+    text-align: left;
+    padding: 60px 0px;
+    line-height: normal;
+    transition: 0.7s;
+    border-radius: 0 0 0 5px;
+    z-index: 1;
+  }
+  .menu a{
+    display: block;
+    padding: 20px;
+    color: #f2f2f2;
+  }
+  .popup-a{
+      width: 150px;
+      margin: 0;
+      /* padding: 0px 0 20px 20px !important; */
+      text-align: center;
+  }
+}
+  .hide-menu-btn{
+    position: absolute;
+    top: 18px;
+    right: 30px;
+    color: #fff;
+  }
+  #chk:checked ~ .menu{
+    right: 0;
+  }
+}
+
+.img-circle{
+  /* margin: 10px 0 0 0; */
+  width: 30px;
+  border-radius: 50%;
+}
+@media screen and (max-width:1055px) {
+.mysearchbox{
+    width: 250px;
+    background-position: 219px 6px; 
+}
+}
+@media screen and (max-width:675px) {
+.mysearchbox{
+margin-left: 50px; 
+  width: 150px;
+  background-position: 119px 6px; 
+}
+}
+@media screen and (max-width:508px) {
+  .mysearchbox{
+      margin-left: 50px; 
+      margin-top: 20px; 
+      width: 150px;
+      background-position: 119px 6px;
+      padding: 10px 20px;
+  }
+  .logo{
+    display: none;
+  }
+  .icon-logo{
+    display: inline;
+    width: 40px;
+    margin-left: 20px; 
+    cursor: pointer;
+  }
+}
+@media screen and (max-width:461px) {
+  .mysearchbox{
+  margin-left: 60px; 
+  margin-top: 20px; 
+  width: 150px;
+  background-position: 119px 6px;
+  /* padding: 10px 20px; */
+  }
+}
+@media screen and (max-width:330px) {
+  .mysearchbox{
+  margin-left: 40px; 
+  margin-top: 20px; 
+  width: 100px;
+  background-position: 75px 6px;
+  /* padding: 10px 20px; */
+  }
+}

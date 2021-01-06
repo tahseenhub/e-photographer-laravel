@@ -1,0 +1,141 @@
+body
+{
+    /* background-image: url("signinbg.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat; */
+    background: #d6e2d9;
+}
+html
+{
+    height: 100%;
+}
+a{
+    text-decoration: none !important;
+}
+.logo-center
+{
+    margin: 70px 0 0 0;
+}
+.center-div
+{
+    position: absolute;
+    width: 500px;
+    z-index: 15;
+    top: 50%;
+    left: 50%;
+    margin: -110px 0 0 -250px;
+    background: #ffffff;
+    padding: 25px;
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 204, .3);
+    box-shadow: 0 0 10px rgba(0, 0, 204, .7);
+}
+.signin
+{
+    color: green;
+}
+.signin-hr
+{
+    margin: 5px 0 5px 0;
+    border:1px solid green;
+    width: 60px;
+    position: absolute;
+    left: 186px;
+}
+@media screen and (max-width:515px) {
+    .center-div
+    {
+        width: 400px;
+        margin: -110px 0 0 -205px;
+    }
+    .signin-hr
+    {
+        margin: 5px 0 5px 0;
+        border:1px solid green;
+        width: 60px;
+        position: absolute;
+        left: 139px;
+    }
+    .logo-center
+    {
+        margin: 99px 0 0 0;
+    }
+    .logo{
+        width: 250px;
+    }
+}
+@media screen and (max-width:440px) {
+    .center-div
+    {
+        width: 330px;
+        margin: -110px 0 0 -165px;
+    }
+    .signin-hr
+    {
+        margin: 5px 0 5px 0;
+        border:1px solid green;
+        width: 60px;
+        position: absolute;
+        left: 103px;
+    }
+    .forgot-pass-text{
+        font-size: 12px !important;
+    }
+}
+
+.hr-5px
+{
+    margin: 0px 0 5px 0;
+    border: none;
+}
+.hr-22px
+{
+    margin: 11px 0 11px 0;
+    border: none;
+}
+.mysigninInput{
+    border: 1px solid rgba(0, 153, 51,.5);
+    padding: 7px;
+    border-radius: 2px;
+    transition: 0.3s;
+    margin: 3px 0 10px 0;
+    width: 100%;
+  }
+  .mysigninInput:hover{
+    border: 1px solid rgba(0, 153, 51,1);
+  }
+.signin-button
+{
+    width: 250px;
+    background: black;
+    color: white;
+    border: none;
+    padding: 10px 40px;
+    transition: 0.3s;
+    /* margin: 0 120px 0 120px; */
+}
+.signin-button:hover
+{
+    background: green;
+    color: #ffffff;
+}
+.gmail-button
+{
+    width: 250px;
+    background: red;
+    color: white;
+    border: none;
+    padding: 10px 40px;
+}
+.fb-button
+{
+    width: 250px;
+    background: blue;
+    color: white;
+    border: none;
+    padding: 10px 40px;
+}
+.hr-or
+{
+    border: none;
+    margin: 4px 0 4px 0;
+}

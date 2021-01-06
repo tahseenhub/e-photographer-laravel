@@ -1,0 +1,1 @@
+Your passwprd is {{$data}}

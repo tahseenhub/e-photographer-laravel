@@ -1,0 +1,63 @@
+footer
+{
+    background: #000;
+    height: auto;
+    color: #fff;
+    padding: 40px 10px;
+    margin: 20px 0 0 0;
+    
+        
+    
+}
+.myicon{
+    padding: 5px 10px;
+}
+.myicon:hover{
+    background: #fff;
+    transition: all .4s ease-in-out;
+    -webkit-box-shadow: 0 0 10px rgba(32, 80, 223, .5);
+    box-shadow: 0 0 10px rgba(32, 80, 223, .5);
+}
+.feedback-input
+{
+    width: 100%;
+    border: none;
+    padding: 10px;
+    color: #000;
+}
+textarea
+{
+    resize: none;
+}
+.without-border-10px
+{
+    border: none;
+    margin:10px 0 0px 0; 
+}
+.without-border-20px
+{
+    border: none;
+    margin:20px 0 0px 0; 
+}
+
+@media screen and (max-width:417px) {
+    input[type="email"]::placeholder { /* Firefox, Chrome, Opera */ 
+        font-size: 11px; 
+    }
+     input[type="email"]:-ms-input-placeholder { /* Internet Explorer 10-11 */ 
+        font-size: 11px; 
+    } 
+    input[type="email"]::-ms-input-placeholder { /* Microsoft Edge */ 
+        font-size: 11px; 
+    }
+    textarea::placeholder { /* Firefox, Chrome, Opera */ 
+        font-size: 11px; 
+    }
+    textarea:-ms-input-placeholder { /* Internet Explorer 10-11 */ 
+        font-size: 11px; 
+    } 
+    textarea::-ms-input-placeholder { /* Microsoft Edge */ 
+        font-size: 11px; 
+    }
+}
+

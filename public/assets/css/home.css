@@ -1,0 +1,391 @@
+a{
+  text-decoration: none !important;
+  cursor: pointer;
+  color: #000;
+}
+.slider{
+    margin-top:69px; 
+}
+.myslides
+{
+    margin-top: 153px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+}
+.container-fluids
+{
+    width: 100%;
+    position: relative;
+    margin:0;
+    border: 0;
+}
+.category-span{
+  padding: 5px 15px;
+  cursor: pointer;
+}
+.category-span-active{
+  color: rgba(0, 153, 51);
+  font-weight: bold;
+}
+.text,.similiar-text
+{
+    color:#f2f2f2;
+    font-size:15px;
+    padding:8px 12px;
+    position:absolute;
+    bottom: 8px;
+    width:100%;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(0, 0, 0,0.7));
+    color: white;
+}
+.numbertext
+{
+    color: #f2f2f2;
+    font-size:12px;
+    padding:8px 12px;
+    position:absolute;
+    top:0;
+}
+
+.slider-fade
+{
+    -webkit-animation-name:fade;
+    -webkit-animation-duration:1.5s;
+    animation-name: fade;
+    animation-duration: 2s;
+}
+@-webkit-keyframes fade
+{
+    from{opacity: 1}
+    to {opacity: 1}
+}
+@media only screen and (max-width:300px)
+{
+    .prev, .next, .text{font-size: 11px}
+}
+.without-border-upper-slider-hr
+{
+    border: none;
+}
+.mybtn{
+    border-radius:5px; 
+    /* border: 2px solid rgba(43, 161, 108,.7); */
+    border: none;
+    background: rgba(255, 255, 255);
+    padding: 10px;
+    color: black;
+    /* text-shadow: 0 0 3px rgb(255, 255, 255); */
+    transition: all ease-in .3s;
+}
+.mybtn:hover{
+    border: none;
+    background: rgba(0, 153, 51);
+    color: #f2f2f2;
+}
+.hr-10px{
+  border: none;
+  margin: 5px 0 5px 0;
+}
+
+/* * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial;
+  } */
+  #addtocart{
+    cursor: pointer;
+    transition:.2s;
+  }
+  #addtocart:hover{
+    font-size: 21px;
+    font-weight: bold;
+  }
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: relative;
+    top: 9PX;;
+    text-align: center;
+  }
+  
+  .image:hover {
+    opacity: 0.9;
+  }
+  
+  .img-details-div:hover .middle{
+    opacity: 1;
+    /* position: absolute; */
+    /* top:0; */
+  }
+  
+  .text {
+    
+    /* font-size: 16px; */
+    /* padding: 16px 32px; */
+  }.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 20px 0 0;
+}
+.modal-img-center {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+.img-bottom-hr{
+    border: none;
+    margin: 15px 0 15px 0;
+    }
+  /* Create four equal columns that sits next to each other */
+  .grid-row,.similiar-photos {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  .modal-footer{
+    border: none;
+}
+ 
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+  .avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 20px 0 0;
+  }
+.myBtn{
+  /* position: relative;
+  top: 10px; */
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  padding: 5px 10px;
+  background: none;
+  border-radius: 3px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.eye-btn{
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  padding: 5px 10px;
+  background: none;
+  border-radius: 3px;
+  cursor: no-drop;
+}
+.myBtn:hover{
+  border: 1px solid rgba(0, 153, 51, 0.3);
+  background: rgba(0, 153, 51);
+  color: #fff;
+}
+
+
+  #myImg {
+    /* border-radius: 5px; */
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  /* #myImg:hover {opacity: 0.7;} */
+  
+.flex-content{
+  display: flex;
+  /* flex: 1; */
+}
+.flex-content textarea{
+  width: 100%;
+}
+  .comments,.info-div{
+    /* border: 1px solid rgba(0,0,0,0.2); */
+    box-shadow: 1px 1px 1px 1px rgba(0, 153, 51,0.2);
+    /* width: 320px; */
+    border-radius: 3px;
+    margin: 0 20px 0 0;
+    padding: 10px 20px;
+  }
+  .greyfont
+{
+    color: grey;
+}
+.comment-hr{
+  border: none;
+  margin: 7px 0 7px 0;
+}
+.without-border-10px{
+  border: none;
+  margin: 5px 0 0px 0;
+}
+.hr-20px{
+  border: none;
+  margin: 10px 0 10px 0;
+}
+.similiar-column{
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+  max-width: 33.33%;
+  padding: 0 4px;
+}
+
+.similiar-column img {
+  margin-top: 8px;
+  /* vertical-align: middle; */
+  width: 100%;
+}
+@media screen and (max-width: 800px) {
+  .similiar-column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .similiar-column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+  .similiar-text{
+    font-size: 13px;
+  }
+}
+.hr-10px-border{
+  border: 1px solid rgba(0, 153, 51,0.5);
+  margin: 5px 0 5px 0;
+}
+
+.order-payment,.order-identity{
+  margin: 80px 0 0 0;
+  border: 1px solid rgba(0, 153, 51,0.5);
+  /* height: 100px; */
+  padding: 10px 20px;
+}
+.order-details{
+  margin: 20px 0 0 0;  
+  border: 1px solid rgba(0, 153, 51,0.5);
+  /* height: 100px; */
+  padding: 10px 20px;
+}
+.shoot-details,.confirm-order{
+  box-shadow: 0px 3px 1px 1px rgba(0, 153, 51,0.15);
+  padding: 10px 20px;
+}
+.myOrderInput{
+  border: 1px solid rgba(0, 153, 51,.5);
+  padding: 7px;
+  border-radius: 2px;
+  transition: 0.3s;
+  margin: 3px 0 10px 0;
+  width: 100%;
+}
+.myOrderInput:hover{
+  border: 1px solid rgba(0, 153, 51,1);
+}
+.final-order-shoot{
+  object-fit: cover;
+  height: 200px;
+}
+
+#exhibition, #contest{
+  /* margin: 30px 0 0 0; */
+  background: rgba(0, 102, 0,.12);
+  padding: 20px;
+  -moz-box-shadow: 0px 0px 12px rgba(0,0,0,.37); 
+  -webkit-box-shadow: 0px 0px 12px rgba(0,0,0,.37);
+  box-shadow: 0px 0px 12px rgba(0,0,0,.37);
+}
+.exhibition-name{
+  cursor: pointer;
+  font-weight: bolder;
+  font-size: 21px;
+}
+.exhibition-name:hover{
+  color: rgba(0, 153, 51);
+}
+.exhibition-img img{
+  cursor: pointer;
+  width: 100%;
+  height: 200px;
+  /* display: inline !important; */
+  object-fit: cover;
+}
+.upcomng-events{
+  /* margin: 30px 0 0 0; */
+  position: absolute;
+  top: 95px;
+  right: 0;
+  padding: 10px;
+  color: #f2f2f2;
+  width: 400px;
+  height: auto;
+  background: rgba(0, 153, 51);
+  box-shadow: 0px 3px 1px 1px rgba(255, 255, 255, 0.1);
+  z-index: 1111;
+}
+
+.upcoming-text{
+  font-weight:bolder;
+  font-size:25px;
+  text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.5); 
+}
+.modal-bold-text{
+  font-weight:bolder;
+  font-size:17px;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5); 
+}
+.day,.month,.year{
+  display: inline;
+  padding: 10px;
+  -moz-box-shadow: 0px 0px 12px rgba(0,0,0,.37); 
+  -webkit-box-shadow: 0px 0px 12px rgba(0,0,0,.37);
+  box-shadow: 0px 0px 9px rgba(0,0,0,.2);
+}
+.myContestInput{
+  border: 1px solid rgba(0, 153, 51,.5);
+  padding: 7px;
+  border-radius: 2px;
+  transition: 0.3s;
+  margin: 3px 0 10px 0;
+  width: 100%;
+}
+.myContestInput:hover{
+  border: 1px solid rgba(0, 153, 51,1);
+}

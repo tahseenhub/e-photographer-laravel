@@ -1,0 +1,65 @@
+.center {
+    margin: 70px auto;
+    width: 65%;
+    padding: 20px;
+    /* border: 3px solid #73AD21; */
+    /* padding: 20px; */
+    -moz-box-shadow:    inset 0 0 10px rgba(0,0,0,.5);
+    -webkit-box-shadow: inset 0 0 10px rgba(0,0,0,.5);
+    box-shadow:         inset 0 0 10px rgba(0,0,0,.5);
+    /* height: 10%; */
+    }
+  .clearfix{
+      overflow:hidden;
+  }
+    .dashboard-div{
+        background: rgba(0, 153, 51);
+        padding: 25px;
+        /* width: 204px; */
+        border-radius:3px;
+        height: 100px;
+        color: #fff;
+        /* float: left; */
+        cursor: pointer !important;
+        text-align: center;
+    }
+    .dashboard-div a{
+      color: #fff;
+      text-decoration: none;
+    }
+    .col-md-3{
+        margin: 0 0 20px 0 0;
+    }
+    .dashboard-div span{
+        font-size: 21px;
+    }
+    .dashboard-hr{
+        border: 1px solid rgba(0, 153, 51,.3);
+        margin: 10px 0 0 10px;
+    }
+    .mysearchinput{
+        border: 1px solid rgba(0, 153, 51,.5);
+        padding: 7px;
+        border-radius: 3px;
+        transition: 0.3s;
+        margin: 3px 0 10px 0;
+        background-image: url("search.png");
+        background-position: 159px 9px; 
+        background-repeat: no-repeat;
+
+      }
+      .mysearchinput:hover{
+        border: 1px solid rgba(0, 153, 51,1);
+      }
+      .mysliderinput{
+        border: 1px solid rgba(0, 153, 51,.5);
+        padding: 7px;
+        border-radius: 3px;
+        transition: 0.3s;
+        margin: 3px 0 10px 0;
+
+      }
+      .mysliderinput:hover{
+        border: 1px solid rgba(0, 153, 51,1);
+      }
+      

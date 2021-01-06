@@ -1,0 +1,30 @@
+
+<!doctype html>
+<title>Example</title>
+<style>
+.grid { 
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-column-gap: 3px;  
+    grid-row-gap: 3px;
+
+    
+  }
+.grid div img {
+  width: 100%;
+    height: 230px;
+}
+    @media only screen and (max-width:700px){
+        .grid{
+            grid-template-columns: repeat(1,1fr)
+        }
+    }
+</style>
+<main class="grid">
+    <div><img src="black.png" alt="Image 1"></div>
+    <div><img src="dp1.jpg" alt="Image 2"></div>
+    <div><img src="dp2.jpg" alt="Image 3"></div>
+    <div><img src="archi1.jpg" alt="Image 4"></div>
+   <div> <img src="mypic.png" alt="Image 5"></div>
+    <div><img src="cover3.jpg" alt="Image 6"></div>
+</main>
